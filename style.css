@@ -1,0 +1,104 @@
+#main {
+    text-align: center;
+    padding: 20px;
+    margin: 30px 100px;
+    background-color: #ffb;
+}
+
+@media (max-width: 992px) {
+    #main {
+        margin: 0;
+    }
+}
+
+#title {
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+#img-div {
+    padding: 25px;
+}
+
+@media (max-width: 992px) {
+    #img-div {
+        margin: 0;
+    }
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+#img-caption {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+@media (max-width: 992px) {
+    #img-caption {
+        font-size: 16px;
+    }
+}
+
+#tribute-link {
+    color: blue;
+}
+
+#tribute-link:visited {
+    color: #74638f;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+#headline {
+    font-size: 24px;
+    margin-bottom: -2px;
+}
+
+section {
+    font-size: 20px;
+    margin: 0 3rem 10px 3rem;
+    padding-bottom: 10px;
+}
+
+ul {
+    margin: 10px 5rem;
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 24px;
+    margin: 10px 2rem;
+    padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+    section {
+        margin: 0;
+    }
+
+    blockquote {
+        margin: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    ul {
+        margin: 10px 0;
+    }
+}
+
+footer {
+    margin: 50px 0 10px 0;
+    font-size: 18px;
+}
